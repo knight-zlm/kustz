@@ -1,0 +1,7 @@
+namespace: demo-demo
+name: srv-webapp-demo
+
+service:
+  name: nginx
+  image: docker.io/library/nginx:alpine
+  replicas: 2
